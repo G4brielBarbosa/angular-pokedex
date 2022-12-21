@@ -1,5 +1,6 @@
 <p align="center">
-    [Angular-Pokedex](https://user-images.githubusercontent.com/98058431/209003100-c3d9ed6a-4cfe-4f5b-ac15-aac3abcf56bb.png)
+    <img src= "https://user-images.githubusercontent.com/98058431/209003100-c3d9ed6a-4cfe-4f5b-ac15-aac3abcf56bb.png">
+   
 </p>
 
 <h1 align="center"> Descrição do Projeto </h1>!
