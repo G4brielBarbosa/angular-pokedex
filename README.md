@@ -1,8 +1,9 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/G4brielBarbosa/angular-pokedex/src/assets/Angular-Pokedex.png" />
+    [Angular-Pokedex](https://user-images.githubusercontent.com/98058431/209003100-c3d9ed6a-4cfe-4f5b-ac15-aac3abcf56bb.png)
 </p>
 
-<h1 align="center"> Descrição do Projeto </h1>
+<h1 align="center"> Descrição do Projeto </h1>!
+
 
 <br>
 
