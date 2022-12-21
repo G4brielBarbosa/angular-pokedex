@@ -34,7 +34,7 @@ Para desenvolver esse projeto foi utilizado essas funcionalidades.
 <br>
 
 <p align="center">
-  <img "src="https://user-images.githubusercontent.com/98058431/209003685-ab263031-cb57-41e0-8a39-c95cfd6c5303.gif" />
+  <img src="https://user-images.githubusercontent.com/98058431/209003685-ab263031-cb57-41e0-8a39-c95cfd6c5303.gif">
 </p>
 
 
