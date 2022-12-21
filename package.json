@@ -1,6 +1,10 @@
 {
   "name": "angular-pokedex",
   "version": "0.0.0",
+  "engines": {
+    "node": "9.1.3",
+    "npm": "16.17.1"
+  },
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
