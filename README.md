@@ -3,7 +3,7 @@
    
 </p>
 
-<h1 align="center"> Descrição do Projeto </h1>!
+<h1 align="center"> Descrição do Projeto </h1>
 
 
 <br>
@@ -27,14 +27,16 @@ Para desenvolver esse projeto foi utilizado essas funcionalidades.
 <br>
 
 <p align="center">
+
   Versão Desktop
 </p>
 
 <br>
 
 <p align="center">
-  <img "src="https://raw.githubusercontent.com/G4brielBarbosa/angular-pokedex/src/assets/AngularPokedex (1).gif" />
+  <img "src="https://user-images.githubusercontent.com/98058431/209003502-95cf2faf-ec8c-41bd-b446-6f5a8d09751e.gif" />
 </p>
+
 
 <br>
 
@@ -47,5 +49,5 @@ Para desenvolver esse projeto foi utilizado essas funcionalidades.
 
 
 <p align="center">
-  <img "src="https://raw.githubusercontent.com/G4brielBarbosa/angular-pokedex/src/assets/AngularPokedex.gif" />
+  <img "src="https://user-images.githubusercontent.com/98058431/209003539-06cb529b-7d1b-486c-a937-57127dd4c397.gif" />
 </p>
