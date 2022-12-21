@@ -1,27 +1,49 @@
-# AngularPokedex
+<p align="center">
+  <img style="height: 500px "src="https://raw.githubusercontent.com/G4brielBarbosa/angular-pokedex/src/assets/Angular-Pokedex.png" />
+</p>
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.2.5.
+<h1 align="center"> Descrição do Projeto </h1>
 
-## Development server
+<br>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+ Projeto desenvolvido com o objetivo de praticar o consumo de API's com Angular, inspiração do layout foi na dribble .
+  
+Para desenvolver esse projeto foi utilizado essas funcionalidades.
+  
+- TypeScript 
+- PokeAPI
+- Angular
+- Node
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+  Link para acesso do projeto em produção : https://g4brielbarbosa.github.io/angular-pokedex/
 
-## Build
+<br>
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+<h1 align="center"> Demonstração do Projeto </h1>
 
-## Running unit tests
+<br>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+<p align="center">
+  Versão Desktop
+</p>
 
-## Running end-to-end tests
+<br>
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<p align="center">
+  <img "src="https://raw.githubusercontent.com/G4brielBarbosa/angular-pokedex/src/assets/AngularPokedex (1).gif" />
+</p>
 
-## Further help
+<br>
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+<p align="center">
+  Versão Mobile
+</p>
+
+<br>
+
+
+<p align="center">
+  <img "src="https://raw.githubusercontent.com/G4brielBarbosa/angular-pokedex/src/assets/AngularPokedex.gif" />
+</p>
