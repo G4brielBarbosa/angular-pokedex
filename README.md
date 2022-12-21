@@ -27,7 +27,6 @@ Para desenvolver esse projeto foi utilizado essas funcionalidades.
 <br>
 
 <p align="center">
-
   Versão Desktop
 </p>
 
@@ -50,5 +49,5 @@ Para desenvolver esse projeto foi utilizado essas funcionalidades.
 
 
 <p align="center">
-  <img "src="https://user-images.githubusercontent.com/98058431/209003539-06cb529b-7d1b-486c-a937-57127dd4c397.gif" />
+  <img src="https://user-images.githubusercontent.com/98058431/209003539-06cb529b-7d1b-486c-a937-57127dd4c397.gif" />
 </p>
