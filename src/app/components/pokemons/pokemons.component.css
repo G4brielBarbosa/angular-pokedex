@@ -1,0 +1,245 @@
+.pokedex__content{
+    width: 90%;
+    position: absolute;
+    top: 0;
+    right: -0.2%;
+    height: 100vh;
+
+
+}
+
+.pokedex__content button{
+    width: 5%;
+    margin: 10px 45%;
+    padding: 5px;
+    font-weight: bold;
+}
+
+.card__container{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    color: black;
+    background-color: gainsboro;
+   
+}
+
+.card__left{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card__left .pokemon__container{
+    width: 50%;
+    height: 80%;
+    position: relative;
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+.card__left .pokemon__container .pokemon__height{
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    top: -5%;
+    left: -5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.text-info{
+    font-weight: bold;
+    color: #57554F;
+}
+
+.card__left .pokemon__container .pokemon__weight{
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    top: -5%;
+    right: -5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 100%;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+.pokemon__info{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemon__info .id__pokemon__info{
+    width: 100%;
+    height: 30%;
+    text-align: center;
+    font-size: 3rem;
+    position: absolute;
+    top: 0;
+    /* right: -10%; */
+    color: rgba(128, 128, 128, 0.74);
+    z-index: 1;
+    
+}
+
+.pokemon__info img{
+    max-width: 20%;
+    z-index: 2;
+
+}
+
+
+.pokemon__info .genus{
+    margin-bottom: 4%;
+}
+
+.pokemon__info h3{
+    color: #57554F;
+    font-size: 1.5rem;
+}
+
+.pokemon__info .ability___pokemon{
+    margin-top: 2%;
+    font-weight: 500;
+    color: #57554F;
+}
+
+.card__right{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.card__right .card__container{
+    
+    width: 80%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.card__right .pokemon__stats{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.card__right .name__stats{
+    width: 20%;
+    font-weight: 500;
+}
+
+.card__right .bar__stats{
+    width: 70%;
+    background-color: gainsboro;
+    height: 20px;
+    border-radius: 20px;
+}
+
+.card__right .barprogress__value{
+    height: 20px;
+    border-radius: 20px;
+}
+
+@media (max-width: 820px)
+{
+    .pokedex__content{
+        width: 80%;
+    
+    }
+
+    .card__container{
+        flex-direction: column;     
+        height: 80%;  
+        width: 100%;
+    }
+
+    .card__left{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card__left .pokemon__container{
+        width: 90%;
+       
+    }
+
+    .card__left .pokemon__container .pokemon__weight{
+        width: 20%;
+    }
+
+    
+    .card__left .pokemon__container .pokemon__height{
+        width: 20%;
+    }
+
+    .text-info{
+        font-size: 0.8rem;
+        font-weight: bold;
+        color: #57554F;
+    }
+
+    .card__right{
+        width: 100%;
+        height: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .card__right .card__container{    
+        width: 90%;
+    }
+
+    .pokemon__info .id__pokemon__info{
+        font-size: 1rem;
+    }
+
+    .card__right .pokemon__stats{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        padding: 2%;
+        align-items: center;
+    }
+
+    .card__right .bar__stats{
+        width: 60%;
+        background-color: gainsboro;
+        height: 15px;
+        border-radius: 20px;
+    }
+
+    .card__right .barprogress__value{
+        height: 15px;
+        border-radius: 20px;
+    }
+
+    .pokedex__content button{
+        width: 30%;
+        margin: 10px 35%;
+        padding: 5px;
+        font-weight: bold;
+    }
+}

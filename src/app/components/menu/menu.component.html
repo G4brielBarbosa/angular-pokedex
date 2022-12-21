@@ -1,0 +1,8 @@
+<nav class="navbar__pokedex">
+    <div *ngFor="let type of typesPokemon; let i = index" (click)="targetEvent($event)" >
+        <span *ngIf="type.name != 'unknown' && type.name != 'shadow'"
+         class="navbar__type" [ngClass]="effectBackgroundType(type.name)">
+            {{ type.name | uppercase }}
+        </span>
+    </div>
+</nav>

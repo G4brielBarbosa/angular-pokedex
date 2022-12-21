@@ -1,1 +1,178 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'segoe UI';
+}
+
+.normal{
+    color: #ADADAD;
+    font-weight: bold;
+}
+
+.fighting{
+    color: #C02F27;
+    font-weight: bold;
+}
+
+.flying{
+    color: #9A9DDB;
+    font-weight: bold;
+}
+
+.poison{
+    color: #884D87;
+    font-weight: bold;
+}
+
+.ground{
+    color: #E2BF7E;
+    font-weight: bold;
+}
+
+.ground{
+    color: #E2BF7E;
+    font-weight: bold;
+}
+
+.rock{
+    color: #B0A268;
+    font-weight: bold;
+}
+
+.bug{
+    color: #A6BC3D;
+    font-weight: bold;
+}
+
+.ghost{
+    color: #5B4C71;
+    font-weight: bold;
+}
+
+.steel{
+    color: #6E8790;
+    font-weight: bold;
+}
+
+.fire{
+    color: #D07A35;
+    font-weight: bold;
+}
+
+.water{
+    color: #6688D7;
+    font-weight: bold;
+}
+
+.grass{
+    color: #3DA642;
+    font-weight: bold;
+}
+
+.electric{
+    color: #A98A46;
+    font-weight: bold;
+}
+
+.psychic{
+    color: #C15483;
+    font-weight: bold;
+}
+
+.ice{
+    color: #A4D0CD;
+    font-weight: bold;
+}
+
+.dragon{
+    color: #6f38f6;
+    font-weight: bold;
+}
+
+.dark{
+    color: #725847;
+    font-weight: bold;
+}
+
+.fairy{
+    color: #f9aec7;
+    font-weight: bold;
+}
+
+.normal-background{
+    background-color: #ADADAD;
+}
+
+.fighting-background{
+    background-color: #C02F27;
+}
+
+.flying-background{
+    background-color: #9A9DDB;
+}
+
+.poison-background{
+    background-color: #884D87;
+}
+
+.ground-background{
+    background-color: #E2BF7E;
+}
+
+.ground-background{
+    background-color: #E2BF7E;
+}
+
+.rock-background{
+    background-color: #B0A268;
+}
+
+.bug-background{
+    background-color: #A6BC3D;
+}
+
+.ghost-background{
+    background-color: #5B4C71;
+}
+
+.steel-background{
+    background-color: #6E8790;
+}
+
+.fire-background{
+    background-color: #D07A35;
+}
+
+.water-background{
+    background-color: #6688D7;
+}
+
+.grass-background{
+    background-color: #3DA642;
+}
+
+.electric-background{
+    background-color: #A98A46;
+}
+
+.psychic-background{
+    background-color: #C15483;
+}
+
+.ice-background{
+    background-color: #A4D0CD;
+}
+
+.dragon-background {
+    background-color: #6f38f6;
+}
+
+.dark-background {
+    background-color: #725847;
+}
+
+.fairy-background {
+    background-color: #f9aec7;
+}

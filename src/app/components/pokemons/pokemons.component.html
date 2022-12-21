@@ -1,0 +1,41 @@
+<div class="pokedex__content">
+    <div class="card__container" *ngFor="let pokemon of pokemonStatus">
+        <div class="card__left">
+            <div class="pokemon__container" >
+                <div class="pokemon__height">
+                    <span class="text-info"> {{pokemon.status.height}}m</span>
+                </div>
+                 <div class="pokemon__weight">
+                    <span class="text-info">{{pokemon.status.weight}} kg</span>
+                </div>
+                <div class="pokemon__info">
+                    <div class="id__pokemon__info">
+                        <h1>#{{pokemon.status.id}}</h1>
+                    </div>
+                    <img *ngIf="pokemon.status.sprites.other.dream_world.front_default; else elseBlock" src="{{pokemon.status.sprites.other.dream_world.front_default}}" alt="pokemon">
+                    <ng-template #elseBlock><img src="{{imagePlaceholder}}" alt="pokemon">></ng-template>
+                    <h3>{{pokemon.status.name | firstUpper}}</h3>
+                    <span class="fire-font" *ngFor="let value of pokemon.status.types" [ngClass]="value.type.name" >{{value.type.name | firstUpper}}</span>
+                    <span class="ability___pokemon" *ngFor="let abili of pokemon.status.abilities">{{abili.ability.name | firstUpper}}</span>
+                </div> 
+            </div>
+        </div>
+        <div class="card__right">
+            <div class="card__container">
+                <div class="pokemon__stats" *ngFor="let stat of pokemon.status.stats">
+                    <span class="name__stats">
+                        {{stat.stat.name | firstUpper}}
+                    </span>
+                    <span class="value__stats">
+                        {{stat.base_stat}}
+                    </span>
+                    <div class="bar__stats">
+                        <div class="barprogress__value"[style.background-color]="effectColorBar(stat.base_stat)" [style.width]="effectBar(stat.base_stat)">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>        
+    </div>
+    <button (click)="loadMorePokemon()">Load More</button>
+</div>
