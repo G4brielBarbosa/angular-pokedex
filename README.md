@@ -1,5 +1,5 @@
 <p align="center">
-  <img style="height: 500px "src="https://raw.githubusercontent.com/G4brielBarbosa/angular-pokedex/src/assets/Angular-Pokedex.png" />
+  <img src="https://raw.githubusercontent.com/G4brielBarbosa/angular-pokedex/src/assets/Angular-Pokedex.png" />
 </p>
 
 <h1 align="center"> Descrição do Projeto </h1>
